@@ -1,0 +1,70 @@
+* {
+    color: rgb(11, 17, 22);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("cow.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+.container {
+    background-color: #e7e7e7;
+    border: 1px solid rgb(185, 184, 182);
+    border-radius: 6px;
+    height: 100%;
+    width: 50%;
+    margin: 70px 0 70px 70px;
+    padding: 20px 30px 50px 30px;
+    overflow: scroll;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: rgb(255, 253, 253);
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+
+    padding: 15px 6px;
+    margin: 10px 0 0 0;
+}
+
+input[type="submit"] {
+    background-color: rgb(63, 83, 175);
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 6px;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+}
+
+p {
+    padding: 10px;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
