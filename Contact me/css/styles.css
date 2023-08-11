@@ -39,7 +39,6 @@ textarea {
     width: 100%;
     border: none;
     border-radius: 6px;
-
     padding: 15px 6px;
     margin: 10px 0 0 0;
 }
@@ -57,7 +56,6 @@ input[type="submit"]:hover {
 
 p {
     padding: 10px;
-
 }
 
 .bold {
@@ -67,4 +65,11 @@ p {
 h1 {
     text-align: center;
     font-size: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+    .container{
+        width: 80%;
+        margin:40px 10px;
+    }
 }

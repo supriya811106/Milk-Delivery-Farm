@@ -19,13 +19,13 @@ body {
 
 /* style the container */
 .container {
-  height: 60%;
+  height: 350px;
   width: 70%;
   position: relative;
   left: 200px;
   top: 130px;
   text-align: center;
-  border-radius: 60px;
+  border-radius: 50px;
   background-color: #CFF5E7;
   background-image: url("milk.jpg");
   background-size: cover;
@@ -38,7 +38,7 @@ body {
 input,
 .btn {
   border-radius: 30px;
-  width: 50%;
+  width: 80%;
   padding: 12px;
   border: none;
   border-radius: 30px;
@@ -87,7 +87,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #458ea0;
+  background-color: #3a70ae;
 }
 
 /* Two-column layout */
@@ -134,12 +134,13 @@ input[type=submit]:hover {
 
 /* bottom container */
 .bottom-container {
+  /* border-radius: 40px; */
   text-align: center;
   background-color: #666;
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 5px 5px;
 }
 
-/* Responsive layout - when the screen is less than 650px wide, make the container and elements stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 768px*/
 @media screen and (max-width: 768px) {
   .container {
     padding-top: 10px;
@@ -147,8 +148,8 @@ input[type=submit]:hover {
     left: 5%;
     text-align: center;
     top: 80px;
-    /* display: flex;
-    flex-direction: column; */
+    background-image: none;
+    background-color: white;
   }
 
   .container h2 {
@@ -168,7 +169,7 @@ input[type=submit]:hover {
 
   /* hide the vertical line */
   .vl {
-    border: none;
+    display: none;
   }
 
   /* show the hidden text on small screens */

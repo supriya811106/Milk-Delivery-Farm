@@ -1,22 +1,27 @@
-html,body{
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
   height: 100%;
 }
 
 
 body {
-    margin:0;
-    padding:0;
-    height: 100%;
-    background-image: url("cow.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url("cow.jpg");
+  background-position: center;
+  background-size: cover;
 
 }
-* {box-sizing: border-box;}
+
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -27,7 +32,8 @@ input[type=text], input[type=password] {
 }
 
 /* Add a background color when the inputs get focus */
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus,
+input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -46,7 +52,7 @@ button {
 }
 
 button:hover {
-  opacity:1;
+  opacity: 1;
 }
 
 /* Extra styles for the cancel button */
@@ -54,13 +60,15 @@ button:hover {
   padding: 14px 20px;
   background-color: #8B7E74;
 }
-.signupbtn{
+
+.signupbtn {
   background-color: #0D4C92;
 }
 
 
 /* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
+.cancelbtn,
+.signupbtn {
   float: left;
   width: 50%;
 
@@ -76,17 +84,16 @@ button:hover {
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none;
+  position: fixed;
+  z-index: 1;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-image:url("cow.jpg");
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-image: url("cow.jpg");
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50px;
 }
@@ -94,10 +101,10 @@ button:hover {
 /* Modal Content/Box */
 .modal-content {
   background-color: #BCCEF8;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  margin: 5% auto 15% auto;
   border: 1px solid #888;
   width: 50%;
-  border-radius: 80px;/* Could be more or less, depending on screen size */
+  border-radius: 80px;
 }
 
 /* Style the horizontal ruler */
@@ -129,34 +136,49 @@ hr {
   display: table;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-     width: 100%;
-  }
+.signup-box {
+  text-align: center;
 }
-.signup-box{
-text-align: center;
-}
-.signup-button{
-  height: 50px;
-  width: 200px;
-  background-color: #1D1CE5;
+
+.signup-button {
+  height: 48px;
+  width: 150px;
+  background-color:black;
+  border-radius: 50px;
   position: relative;
-  right:-70px;
-  top:50px;
+  top: 50px;
 
 }
-h1{
-  color:#0D4C92;
+
+h1, b, p {
+  color: #0D4C92;
 }
-p{
-  color:#0D4C92;
-}
-b{
-  color:#0D4C92;
-}
-.can{
+
+.can {
   position: relative;
-  top:200px;
+  top: 200px;
 }
+
+/* Change styles for cancel button and signup button on small screens */
+@media screen and (max-width: 768px) {
+
+  .modal-content {
+    width: 80%;
+  }
+
+  .container {
+    padding: 30px;
+  }
+
+  .clearfix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cancelbtn,
+  .signupbtn {
+    width: 80%;
+  }
+}
+
