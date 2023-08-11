@@ -1,0 +1,190 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("cow.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* style the container */
+.container {
+  height: 350px;
+  width: 70%;
+  position: relative;
+  left: 200px;
+  top: 130px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #CFF5E7;
+  background-image: url("milk.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px 0 30px 0;
+}
+
+/* style inputs and link buttons */
+input,
+.btn {
+  border-radius: 30px;
+  width: 80%;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  text-align: center;
+  line-height: 20px;
+  text-decoration: none;
+  /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 2;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  width: 80%;
+  border-radius: 30px;
+  background-color: #00005C;
+  color: white;
+}
+
+.twitter {
+  width: 80%;
+  border-radius: 30px;
+  background-color: #009EFF;
+  color: black;
+}
+
+.google {
+  width: 80%;
+  border-radius: 30px;
+  background-color: #EB6440;
+  color: black;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #2146C7;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #3a70ae;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  /* border-radius: 40px; */
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 5px 5px;
+}
+
+/* Responsive layout - when the screen is less than 768px*/
+@media screen and (max-width: 768px) {
+  .container {
+    padding-top: 10px;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+    top: 80px;
+    background-color: white;
+  }
+
+  .container h2 {
+    color: #ddd;
+    text-decoration: underline;
+  }
+
+  .col {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  input {
+    text-align: center;
+    background-color: black;
+  }
+
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+  }
+  .hide-md-lg p{
+    text-decoration: underline;
+    font-weight: 400;
+  }
+  /* Make the background image responsive */
+  body {
+    background-size: cover;
+    background-position: top;
+  }
+}
