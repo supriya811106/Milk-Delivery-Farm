@@ -1,0 +1,55 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(36, 36, 65);
+
+}
+html,body{
+    height: 100%;
+}
+body{
+    margin:0;
+    padding:0;
+    background-image: url("cow.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;background-attachment: fixed;
+}
+.container {
+    background-color: rgb(165, 170, 168);
+    height: 730px;
+    width:600px;
+   margin:20px 200px 0 20px;
+  
+   padding:30px 30px 0 30px;
+   border-radius: 8px;
+   overflow: auto;
+}
+
+input[type="text"],select {
+    background-color: rgb(247, 247, 234);
+    width:100%;
+    padding:15px 0 15px 15px;
+    
+    border-bottom:2px solid rgb(110, 106, 106);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 6px;
+}
+p{
+    padding :10px;
+}
+input[type="submit"]{
+background-color: rgb(73, 69, 69);
+padding:14px 10px 14px 10px;
+border: none;
+border-radius: 15px;
+font-weight: bold;
+color: white;
+}
+input[type="submit"]:hover {
+    background-color: green;
+}
+h1{
+    text-align: center;
+}
