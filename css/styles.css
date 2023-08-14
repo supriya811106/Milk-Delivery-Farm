@@ -296,7 +296,7 @@ nav ul li a:hover {
 
     .logo-image {
         height: 100px;
-        padding-left: 5px;
+        padding-left: 8px;
     }
 
     .checkbtn {
@@ -317,7 +317,7 @@ nav ul li a:hover {
     nav ul li {
         display: block;
         margin: 50px 0;
-        line-height: 30px;
+        line-height: 40px;
     }
 
     nav ul li a {
