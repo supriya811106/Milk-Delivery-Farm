@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-size: 22px;
+}
+
+/* About Us Section....... */
+.about-us {
+    width: 100%;
+    background-color: #D8D9DA;
+    display: flex;
+    color: white;
+    padding-top: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+}
+
+.container h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Style the contact section */
+.contact-us {
+    background-color: #fff;
+}
+
+.contact-us h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.contact-us p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 60px;
+    background-color: #f5f1f1;
+    padding: 80px;
+}
+
+/* Style the headings within the card */
+.card h1,
+.card p,
+.card h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.social {
+    color: #fff;
+    margin-right: 40px;
+    font-size: 30px;
+}
+.social:hover{
+    color:#C4D7B2;
+}
+footer p {
+    margin: 0;
+}
