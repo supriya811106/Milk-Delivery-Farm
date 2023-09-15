@@ -1,6 +1,6 @@
 # My Milk Farm Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/NETLIFY_SITE_ID_HERE/deploy-status)](https://app.netlify.com/sites/flourishing-kulfi-19dc9a)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/13e6352b-321b-4fd2-b09f-237b98af4086/deploy-status)](https://app.netlify.com/sites/my-milk-farm)
 
 ## Description
 
@@ -8,7 +8,7 @@ Welcome to the official website of My Milk Farm. This website showcases our farm
 
 ## Live Website
 
-You can access the live version of this website [here](https://flourishing-kulfi-19dc9a.netlify.app/).
+You can access the live version of this website [here](https://my-milk-farm.netlify.app/).
 
 ## Features
 
