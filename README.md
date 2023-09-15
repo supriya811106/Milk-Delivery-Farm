@@ -1,8 +1,8 @@
-# 🐄 Milk Farm Website
+# 🐄 My Milk Farm Website
 
 Welcome to our milk farm's official website. Dive in to discover the pure, organic, and fresh milk products that we provide straight from our farm to your table.
 
-![Milk Farm Screenshot](path-to-screenshot-image-of-milk-farm-website.png)
+![Milk Farm Screenshot](https://github.com/supriya811106/Milk-Delivery-Farm/assets/89856408/81cc6948-7660-4602-985a-ae82ee6450d3)
 
 ## 🌍 [Live Demo](https://my-milk-farm.netlify.app/)
 
