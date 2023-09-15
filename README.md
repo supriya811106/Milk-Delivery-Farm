@@ -21,7 +21,7 @@ Click the link above to explore our products, know our story, and understand our
 
 1. Clone the repository:
 ```bash
-git clone your-repository-link-here
+git clone [your-repository-link-here](https://github.com/supriya811106/Milk-Delivery-Farm/)
 
 ## Technologies Used
 
