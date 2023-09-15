@@ -4,7 +4,7 @@ Welcome to our milk farm's official website. Dive in to discover the pure, organ
 
 ![Milk Farm Screenshot](path-to-screenshot-image-of-milk-farm-website.png)
 
-## 🌍 [Live Demo](https://my-milk-farm.netlify.app/))
+## 🌍 [Live Demo](https://my-milk-farm.netlify.app/)
 
 Click the link above to explore our products, know our story, and understand our process on the official Milk Farm website.
 
@@ -15,14 +15,6 @@ Click the link above to explore our products, know our story, and understand our
 - **Farm Tours**: Book a tour to visit our farm and witness our processes firsthand.
 - **Blog**: Stay updated with our latest news, recipes, and dairy tips.
 
-## 🛠️ Setup
-
-### Running the Website Locally
-
-1. Clone the repository:
-```bash
-git clone [your-repository-link-here](https://github.com/supriya811106/Milk-Delivery-Farm/)
-
 ## Technologies Used
 
 - HTML5
@@ -30,3 +22,10 @@ git clone [your-repository-link-here](https://github.com/supriya811106/Milk-Deli
 - Bootstrap (if applicable)
 - Font Awesome Icons
 
+## 🛠️ Setup
+
+### Running the Website Locally
+
+1. Clone the repository:
+```bash
+git clone (https://github.com/supriya811106/Milk-Delivery-Farm/)
