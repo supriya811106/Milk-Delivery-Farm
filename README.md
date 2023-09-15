@@ -28,4 +28,4 @@ Click the link above to explore our products, know our story, and understand our
 
 1. Clone the repository:
 ```bash
-git clone (https://github.com/supriya811106/Milk-Delivery-Farm/)
+git clone [Link](https://github.com/supriya811106/Milk-Delivery-Farm/)
